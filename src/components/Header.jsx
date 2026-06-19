@@ -8,7 +8,7 @@ export default function Header() {
             <ul>
                 <li id='Accueil'><a href='#Accueil'/>Accueil</li>
                 <li><a href='#aPropos' />A Propos</li>
-                <li><a href='#Projet' />Projet</li>
+                <li><a href='#Projets' />Projets</li>
             </ul>
         </nav>
     </header>
