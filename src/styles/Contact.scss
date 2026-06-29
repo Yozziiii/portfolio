@@ -1,0 +1,17 @@
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px 25px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    
+
+    h2 {
+        min-width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+
+}

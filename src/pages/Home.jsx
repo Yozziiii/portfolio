@@ -2,6 +2,7 @@ import React from "react";
 import project from "../data/data.json"
 import "../styles/Home.scss"
 import ProjectCard from "../components/ProjectCard";
+import Contact from "../components/Contact";
 
 export default function Home (){
 
@@ -30,6 +31,7 @@ export default function Home (){
     return (
         <main>
             <GestionProjet/>
+            <Contact/>
         </main>
     )
 
