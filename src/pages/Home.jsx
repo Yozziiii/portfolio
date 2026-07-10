@@ -3,6 +3,7 @@ import project from "../data/data.json"
 import "../styles/Home.scss"
 import ProjectCard from "../components/ProjectCard";
 import Contact from "../components/Contact";
+import APropos from "../components/APropos";
 
 export default function Home (){
 
@@ -10,7 +11,7 @@ export default function Home (){
         
         return (
         <div className="container">
-            <div className="text">
+            <div className="titre">
                 <h2 id="Projets">Mes projets</h2>
             </div>
                 
@@ -30,6 +31,7 @@ export default function Home (){
     
     return (
         <main>
+            <APropos/>
             <GestionProjet/>
             <Contact/>
         </main>

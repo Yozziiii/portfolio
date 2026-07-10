@@ -4,8 +4,10 @@
     justify-content: center;
     gap: 25px;
     padding: 25px 25px;
-    background-color: #F2F2F2;
+    background-color: var(--section-color);
     border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto;
     
 
     h2 {

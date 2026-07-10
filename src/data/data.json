@@ -3,46 +3,51 @@
 	{
 		"id": "1",
 		"title": "Booki",
-		"cover": "assets/image/Booki.png",
+		"cover": "assets/image/Booki.jpg",
 		"technologie": "HTML - CSS",
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Site de réservation en ligne d'hébergements de vacances",
+		"enjeux":"Intégrer fidèlement une maquette en respectant les bonnes pratiques du HTML et du CSS, tout en garantissant une mise en page responsive adaptée aux différents formats d'écran. Ce projet permettait également de poser les bases d'un code structuré, lisible et facilement maintenable.",
 		"git":"https://github.com/Yozziiii/Projet-2-Booki"
 	},
 	{
 		"id": "2",
 		"title": "Sophie Buel",
-		"cover": "assets/image/SophieBuel.png",
+		"cover": "assets/image/SophieBuel.jpg",
 		"technologie": "HTML - CSS - Javascript",
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Portfolio d'une architecte d'intérieur",
+		"enjeux":"Développer une interface web dynamique capable de communiquer avec une API existante. L'objectif était de gérer l'affichage des données, l'authentification d'un administrateur et la mise à jour du contenu sans rechargement de la page, tout en assurant une expérience utilisateur fluide.",
 		"git":"https://github.com/Yozziiii/Projet3"
 	},
 	{
 		"id": "3",
 		"title": "Nina photo",
-		"cover": "assets/image/NinaCarducci.png",
+		"cover": "assets/image/NinaCarducci.jpg",
 		"technologie": "Débogage - SEO - Optimisation",
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Portfolio d'une photographe professionnelle",
+		"enjeux":"Optimiser les performances et le référencement d'un site existant afin d'améliorer son expérience utilisateur. Le projet visait également à appliquer les bonnes pratiques en matière d'accessibilité, de SEO et d'optimisation des ressources pour répondre aux standards actuels du web.",
 		"git":"https://github.com/Yozziiii/Projet4"
 	},
 	{
 		"id": "4",
 		"title": "Kasa",
-		"cover": "assets/image/Kasa.png",
+		"cover": "assets/image/Kasa.jpg",
 		"technologie": "React - NodeJS",
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Plateforme de location immobilière",
+		"enjeux":"Concevoir une application web moderne avec React en utilisant une architecture de composants réutilisables. Le projet consistait à gérer le routage, l'affichage dynamique des données et la navigation entre plusieurs pages tout en assurant une interface responsive et maintenable.",
 		"git":"https://github.com/Yozziiii/Projet-5-"
 	},
 	{
 		"id": "5",
 		"title": "Mon vieux grimoire",
-		"cover": "assets/image/MonVieuxGrimoire.png",
+		"cover": "assets/image/MonVieuxGrimoire.jpg",
 		"technologie": "React - Node - API - MongoDB",
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Site de notation de livres",
+		"enjeux":"Concevoir une API REST sécurisée capable de gérer l'authentification des utilisateurs, le stockage des données et le traitement des images. Ce projet mettait l'accent sur la sécurisation des échanges, la protection des données et l'organisation d'une architecture back-end fiable et maintenable.",
 		"git":"https://github.com/Yozziiii/Projet6"
 	}
 ]

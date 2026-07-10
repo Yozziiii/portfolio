@@ -1,0 +1,21 @@
+.aPropos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: var(--section-color);
+    border-radius: 15px;
+    min-height: fit-content;
+    max-height: fit-content;
+    max-width: 740px;
+    padding: 25px;
+
+    h2{ 
+        margin: 15px 0px 0px 0px;
+    }
+    p{
+        margin: 15px 0px 0px 0px;
+        line-height: 2;
+    }
+
+}

@@ -5,27 +5,41 @@ main {
     flex-flow: wrap column;
     align-content: center;
 
-    margin: 25px auto;
+    margin: 50px auto ;
     gap: 50px;
 
-        .text {
+        .titre {
+            width: 100%;
 
             h2 {
+                padding: 25px 0px;
+                margin: 0;
                 text-align: center;
+                background-color: var(--section-color);
+                border-radius: 15px 15px 0px 0px;
+
             }
 
         }
+
+        .container{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+        
         .parent {
             min-height: fit-content;
             max-height: fit-content;
             max-width: 740px;
             padding:25px;
-            background-color: #F2F2F2;
-            border-radius: 15px;
+            background-color: var(--section-color);
+            border-radius: 0px 0px 15px 15px;
             display: flex;
             flex-flow: row wrap;
             align-items: center;
             gap: 15px;
         }
+    }
     
 }

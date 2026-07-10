@@ -12,7 +12,7 @@ export default function ProjectCard ({ project }) {
             <img src={project.cover} alt="image d'accueil du projet"/>
             <h3> {project.title} </h3>
             <p> {project.technologie} </p>
-            <p  className="switch" onClick={() => setIsOpen(!isOpen)}>+</p>
+            <button  className="switch" onClick={() => setIsOpen(!isOpen)}>+</button>
 
             {isOpen && (
         <div className="overlay open" onClick={() => setIsOpen(false)}>
@@ -25,9 +25,10 @@ export default function ProjectCard ({ project }) {
                 <div className="textContent">
                     <p>Info : {project.info}</p>
                     <p>Sujet : {project.sujet}</p>
+                    <p>Enjeux : {project.enjeux}</p>
                     <p>Technologies : {project.technologie}</p>
                     <a href={project.git} target="_blank" rel="noopener noreferrer">
-                        Github
+                        Lien Github
                     </a>
                 </div>
             </div>
