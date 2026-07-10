@@ -28,9 +28,33 @@ nav {
             text-decoration: underline;
         }
 
-        button{
+        button.toggle{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 22px;
+            width: 60px;
+            border: none;
+            border-radius: 11px;
+            margin: auto;
+            padding: 3px 5px;
             color: var(--text-color);
             background-color: var(--background-color);
+
+            .rond{
+                width: 17px;
+                height: 17px;
+                border-radius: 50%;
+                background-color: var(--inverted-color);
+                position: absolute;
+                left: 6px;
+                transition:  0.3s ease-in-out;
+            }
+            &.dark .rond{
+                transform: translateX(31px);
+            }
+            
         }
     }
 }
