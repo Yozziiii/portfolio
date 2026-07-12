@@ -17,9 +17,9 @@ export default function Header( {theme, setTheme} ) {
                     onClick={() => 
                         setTheme(theme === 'light' ? 'dark' : 'light')
                     }>  
-                    <FontAwesomeIcon icon={faMoon} className="Icon" />
-                    <span className="rond"></span> 
                     <FontAwesomeIcon icon={faSun} className="Icon" /> 
+                    <span className="rond"></span> 
+                    <FontAwesomeIcon icon={faMoon} className="Icon" />
                 </button>
             </ul>
         </nav>

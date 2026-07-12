@@ -7,7 +7,8 @@
     --background-color: white;
     --section-color: #F2F2F2;
     --text-color: black;
-
+    --inverted-section-color: #212020;
+    
     --inverted-color: black;
     --inverted-text-color: white;
   }
@@ -15,6 +16,7 @@
   &.dark{
     --background-color: black;
     --section-color: #212020;
+    --inverted-section-color: #F2F2F2;
     --text-color: white;
 
     --inverted-color: white;

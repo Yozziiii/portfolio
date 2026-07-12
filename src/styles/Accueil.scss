@@ -1,0 +1,104 @@
+.accueil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: var(--section-color);
+    color: var(--text-color);
+    border-radius: 15px;
+    min-height: 90vh;
+    max-height: 90vh;
+    width: 100%;
+    padding: 50px;
+
+    .one{
+        align-self: flex-start;
+        justify-self: flex-start;
+    }
+
+    .two{
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+
+    
+    .one, .two{
+        display: flex;
+        flex-flow:  row nowrap;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        
+        .Front, .Back{
+            font-size: 150%;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 70%;
+
+            .FrontIcons, .BackIcons{
+                font-size: 250%;
+                display: flex;
+                gap: 15px;
+            }
+        }
+
+        .first, .second{
+            font-size: 500%;
+        }
+        
+        &:hover, &:hover,
+        &:focus, &:focus{
+            border: none;
+            outline: 1px solid #333333 ;
+
+            .first, .second{
+                font-size: 500%;
+                transition: all 0.5s ease-in-out;
+                transform: rotate(180deg);
+            }
+            
+            .Front, .Back{
+                opacity: 1;
+            }
+        }
+    }
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column wrap;
+        align-items: center;
+        flex: 1;
+        margin-top: 15%;
+        margin-bottom: 5%;
+
+        .textAccueil{
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+
+            h1 ,p{
+                font-size: 170%;
+            }
+
+        }
+        
+        .recherche{
+            margin-top: 75px;
+            width: 50%;
+            display: flex;
+            flex-flow: row wrap;
+            margin-left: auto;
+            margin-right: auto;
+
+            p{
+                line-height: 2;
+                font-size: 110%;
+            }
+        }
+    }
+}
