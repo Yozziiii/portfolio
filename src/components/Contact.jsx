@@ -7,7 +7,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
     return (
-        <div className="contact">
+        <section className="contact">
             <h2 id="Contact">Contact</h2>
                 
             <ContactButton
@@ -28,6 +28,6 @@ export default function Contact() {
                 text="Profil GitHub"
             />
 
-        </div>
+        </section>
     )
 }

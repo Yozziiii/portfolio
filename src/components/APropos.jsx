@@ -1,11 +1,9 @@
 import React from 'react';
 import '../styles/APropos.scss';
 
-
-
 export default function APropos() {
     return (
-        <div className="aPropos" id="aPropos" tabindex={0}>
+        <section className="aPropos" id="aPropos" tabIndex={0}>
             <div className="textAPropos">
                 <h2>À propos</h2>
 
@@ -19,6 +17,6 @@ export default function APropos() {
                 <p>Curieux et rigoureux, je cherche constamment à approfondir mes connaissances et à
                 relever de nouveaux défis techniques.</p>
             </div>
-        </div>
+        </section>
     );
 }

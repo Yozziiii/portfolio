@@ -12,15 +12,21 @@ export default function Header( {theme, setTheme} ) {
                 <li><a href='#aPropos' >A Propos</a></li>
                 <li><a href='#Projets' >Projets</a></li>
                 <li><a href='#Contact' >Contact</a></li>
-                <button 
-                    className={`toggle ${theme}`}
-                    onClick={() => 
-                        setTheme(theme === 'light' ? 'dark' : 'light')
-                    }>  
-                    <FontAwesomeIcon icon={faSun} className="Icon" /> 
-                    <span className="rond"></span> 
-                    <FontAwesomeIcon icon={faMoon} className="Icon" />
-                </button>
+                <li>
+                    <button 
+                        className={`mode ${theme}`}
+                        onClick={() => 
+                            setTheme(theme === 'light' ? 'dark' : 'light')
+                        }
+                        
+                        aria-label={theme === 'light'
+                        ? 'Activer le mode sombre' : 'Activer le mode clair'}>
+
+                        <FontAwesomeIcon icon={faSun} className="Icon"  /> 
+                        <span className="rond"></span> 
+                        <FontAwesomeIcon icon={faMoon} className="Icon" />
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>

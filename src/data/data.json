@@ -8,6 +8,7 @@
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Site de réservation en ligne d'hébergements de vacances",
 		"enjeux":"Intégrer fidèlement une maquette en respectant les bonnes pratiques du HTML et du CSS, tout en garantissant une mise en page responsive adaptée aux différents formats d'écran. Ce projet permettait également de poser les bases d'un code structuré, lisible et facilement maintenable.",
+		"perspective":"Connecter Booki à une API pour récupérer les hébergements et les activités au lieu d'utiliser des données statiques.",
 		"git":"https://github.com/Yozziiii/Projet-2-Booki"
 	},
 	{
@@ -18,6 +19,7 @@
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Portfolio d'une architecte d'intérieur",
 		"enjeux":"Développer une interface web dynamique capable de communiquer avec une API existante. L'objectif était de gérer l'affichage des données, l'authentification d'un administrateur et la mise à jour du contenu sans rechargement de la page, tout en assurant une expérience utilisateur fluide.",
+		"perspective":"Une gestion plus avancée des utilisateurs, des fonctionnalités de recherche et de filtres, une meilleure optimisation des images et des performances.",
 		"git":"https://github.com/Yozziiii/Projet3"
 	},
 	{
@@ -28,6 +30,7 @@
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Portfolio d'une photographe professionnelle",
 		"enjeux":"Optimiser les performances et le référencement d'un site existant afin d'améliorer son expérience utilisateur. Le projet visait également à appliquer les bonnes pratiques en matière d'accessibilité, de SEO et d'optimisation des ressources pour répondre aux standards actuels du web.",
+		"perspective":"Permettre à la photographe de gérer elle-même sa galerie et ses contenus. (ajout/modification de photos, textes)",
 		"git":"https://github.com/Yozziiii/Projet4"
 	},
 	{
@@ -38,6 +41,7 @@
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Plateforme de location immobilière",
 		"enjeux":"Concevoir une application web moderne avec React en utilisant une architecture de composants réutilisables. Le projet consistait à gérer le routage, l'affichage dynamique des données et la navigation entre plusieurs pages tout en assurant une interface responsive et maintenable.",
+		"perspective":"Le projet pourrait évoluer avec l'ajout d'un moteur de recherche, d'un système de réservation et d'une gestion des favoris via des comptes utilisateurs.",
 		"git":"https://github.com/Yozziiii/Projet-5-"
 	},
 	{
@@ -48,6 +52,7 @@
 		"info": "Projet de la formation Openclassroom",
 		"sujet":"Site de notation de livres",
 		"enjeux":"Concevoir une API REST sécurisée capable de gérer l'authentification des utilisateurs, le stockage des données et le traitement des images. Ce projet mettait l'accent sur la sécurisation des échanges, la protection des données et l'organisation d'une architecture back-end fiable et maintenable.",
+		"perspective":"Ajout d'un moteur de recherche avancé, de filtres, d'un système de favoris et pouvoir mettre notre avis sur les livres.",
 		"git":"https://github.com/Yozziiii/Projet6"
 	}
 ]
