@@ -273,5 +273,23 @@
                 }
             }
         }
+
+        .container{
+            .textAccueil{
+                margin-bottom: 0;
+                h1{
+                    font-size: 70%;
+                }
+                p{
+                    font-size: 50%;
+                }
+            }
+            
+            .recherche{
+                p{
+                    font-size: 50%;
+                }
+            }
+        }
     }
 }
