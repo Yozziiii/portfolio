@@ -25,7 +25,7 @@
         
         .Front, .Back{
             width: auto;
-            opacity: 1; // ici opacity
+            opacity: 0; // ici opacity
             font-size: 150%;
             transition: opacity 0.5s ease-in-out;
             min-width: fit-content;
@@ -48,7 +48,7 @@
         }
 
         .FrontIcons, .BackIcons{
-            opacity: 1; // ici opacity
+            opacity: 0; // ici opacity
             transition: opacity 0.5s ease-in-out;
             display: flex;
             align-items: center;
@@ -196,7 +196,7 @@
     }
 }
 
-@media (max-width: 780px) and (min-width: 320px){
+@media (max-width: 780px) and (min-width: 380px){
     #accueil{
         padding: 15px;
         .one, .two{
@@ -256,15 +256,32 @@
 
 @media (max-width: 380px) and (min-width: 320px){
     #accueil{
+        padding: 15px;
         .one, .two{
+            flex-flow: column wrap;
+
+            .first, .second{
+                font-size: 200%;
+            }
+
+            .first{
+                align-self: start;
+            }
+            .second{
+                align-self: end;
+            }
+
             .Front, .Back{
+                .skills{
+                    font-size: 35%;
+                }
                 .FrontIcons{
-                    font-size: 130%;
+                    font-size: 100%;
                     padding-bottom: 10px;
                 }
 
                 .BackIcons{
-                    font-size: 120%;
+                    font-size: 90%;
                     padding-top: 10px;
 
                     .mongodb, .api{
